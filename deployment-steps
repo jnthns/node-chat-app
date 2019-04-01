@@ -1,0 +1,16 @@
+Deploy on Heroku and Git
+
+1. Setup Git and commit files
+    - git init
+    - git status
+    - git add .
+    - git commit -m 
+2. ignore node_modules
+    - touch .gitignore
+    - node_modules
+3. Setup a Github repo and push 
+    - git remote add origin git@github.com:jnthns/node-chat-app.git
+    - git push -u origin master
+4. Setup a Heroku app and push
+    - heroku create {{app name}}
+    - git push heroku master
